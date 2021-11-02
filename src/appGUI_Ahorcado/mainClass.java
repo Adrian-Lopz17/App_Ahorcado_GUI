@@ -3,10 +3,10 @@ package appGUI_Ahorcado;
 /**
  * Clase main. 
  * App GUI del Ahorcado con Windows Builder 
- * 1º DAW, grupoA
+ * 1ï¿½ DAW, grupoA
  * 31/01/2021
  * 
- * @author Adrian López Soto
+ * @author Adrian Lï¿½pez Soto
  */
 
 public class mainClass {
