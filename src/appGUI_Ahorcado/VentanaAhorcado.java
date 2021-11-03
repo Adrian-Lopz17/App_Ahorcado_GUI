@@ -2,9 +2,9 @@ package appGUI_Ahorcado;
 
 /**
  * Clase VentanaAhorcado
- * 1º DAW, grupoA
+ * 1ï¿½ DAW, grupoA
  * 31/01/2021
- * @author Adrian López Soto
+ * @author Adrian Lï¿½pez Soto
  *
  */
 
@@ -107,7 +107,7 @@ public class VentanaAhorcado extends JFrame {
 		getContentPane().add(panelJuego);
 		panelJuego.setLayout(null);
 		{
-			// Botón Iniciar Juego:
+			// Botï¿½n Iniciar Juego:
 			{
 				btnIniciarJuego = new JButton("Iniciar juego");
 				btnIniciarJuego.setBounds(30, 20, 140, 25);
@@ -120,7 +120,7 @@ public class VentanaAhorcado extends JFrame {
 				}
 			}
 			
-			// Botón Reiniciar Juego:
+			// Botï¿½n Reiniciar Juego:
 			{
 				btnReiniciar = new JButton("Reiniciar");
 				btnReiniciar.setFont(new Font("Dialog", Font.BOLD, 12));
@@ -163,7 +163,7 @@ public class VentanaAhorcado extends JFrame {
 
 			// Botones del teclado:
 			{
-				// Botón A:
+				// Botï¿½n A:
 				{
 					btnA = new JButton("A");
 					btnA.setBounds(20, 39, 45, 21);
@@ -173,7 +173,7 @@ public class VentanaAhorcado extends JFrame {
 						btnA.addMouseListener(new BtnAMouseListener());
 					}
 				}
-				// Botón B:
+				// Botï¿½n B:
 				{
 					btnB = new JButton("B");
 					btnB.setBounds(70, 39, 45, 21);
@@ -184,7 +184,7 @@ public class VentanaAhorcado extends JFrame {
 					}
 				}
 
-				// Botón C:
+				// Botï¿½n C:
 				{
 					btnC = new JButton("C");
 					btnC.setBounds(120, 39, 45, 21);
@@ -195,7 +195,7 @@ public class VentanaAhorcado extends JFrame {
 					}
 				}
 
-				// Botón D:
+				// Botï¿½n D:
 				{
 					btnD = new JButton("D");
 					btnD.setBounds(170, 39, 45, 21);
@@ -206,7 +206,7 @@ public class VentanaAhorcado extends JFrame {
 					}
 				}
 
-				// Botón E:
+				// Botï¿½n E:
 				{
 					btnE = new JButton("E");
 					btnE.setBounds(220, 39, 45, 21);
@@ -217,7 +217,7 @@ public class VentanaAhorcado extends JFrame {
 					}
 				}
 
-				// Botón F:
+				// Botï¿½n F:
 				{
 					btnF = new JButton("F");
 					btnF.setBounds(270, 39, 45, 21);
@@ -228,7 +228,7 @@ public class VentanaAhorcado extends JFrame {
 					}
 				}
 
-				// Botón G:
+				// Botï¿½n G:
 				{
 					btnG = new JButton("G");
 					btnG.setBounds(20, 69, 45, 21);
@@ -239,7 +239,7 @@ public class VentanaAhorcado extends JFrame {
 					}
 				}
 
-				// Botón H:
+				// Botï¿½n H:
 				{
 					btnH = new JButton("H");
 					btnH.setBounds(70, 69, 45, 21);
@@ -250,7 +250,7 @@ public class VentanaAhorcado extends JFrame {
 					}
 				}
 
-				// Botón I:
+				// Botï¿½n I:
 				{
 					btnI = new JButton("I");
 					btnI.setBounds(120, 69, 45, 21);
@@ -261,7 +261,7 @@ public class VentanaAhorcado extends JFrame {
 					}
 				}
 
-				// Botón J:
+				// Botï¿½n J:
 				{
 					btnJ = new JButton("J");
 					btnJ.setBounds(170, 69, 45, 21);
@@ -272,7 +272,7 @@ public class VentanaAhorcado extends JFrame {
 					}
 				}
 
-				// Botón K:
+				// Botï¿½n K:
 				{
 					btnK = new JButton("K");
 					btnK.setBounds(220, 69, 45, 21);
@@ -283,7 +283,7 @@ public class VentanaAhorcado extends JFrame {
 					}
 				}
 
-				// Botón L:
+				// Botï¿½n L:
 				{
 					btnL = new JButton("L");
 					btnL.setBounds(270, 69, 45, 21);
@@ -294,10 +294,10 @@ public class VentanaAhorcado extends JFrame {
 					}
 				}
 
-				// Botón M:
+				// Botï¿½n M:
 				{
 					btnM = new JButton("M");
-					btnM.setBounds(20, 99, 45, 21);
+					btnM.setBounds(20, 99, 46, 21);
 					panelTeclado.add(btnM);
 					// Listeners:
 					{
@@ -305,7 +305,7 @@ public class VentanaAhorcado extends JFrame {
 					}
 				}
 
-				// Botón N:
+				// Botï¿½n N:
 				{
 					btnN = new JButton("N");
 					btnN.setBounds(70, 99, 45, 21);
@@ -316,7 +316,7 @@ public class VentanaAhorcado extends JFrame {
 					}
 				}
 
-				// Botón Ñ:
+				// Botï¿½n ï¿½:
 				{
 					btnEnie = new JButton("\u00D1");
 					btnEnie.setBounds(120, 99, 45, 21);
@@ -327,7 +327,7 @@ public class VentanaAhorcado extends JFrame {
 					}
 				}
 
-				// Botón O:
+				// Botï¿½n O:
 				{
 					btnO = new JButton("O");
 					btnO.setBounds(170, 99, 45, 21);
@@ -338,7 +338,7 @@ public class VentanaAhorcado extends JFrame {
 					}
 				}
 
-				// Botón P:
+				// Botï¿½n P:
 				{
 					btnP = new JButton("P");
 					btnP.setBounds(220, 99, 45, 21);
@@ -349,7 +349,7 @@ public class VentanaAhorcado extends JFrame {
 					}
 				}
 
-				// Botón Q:
+				// Botï¿½n Q:
 				{
 					btnQ = new JButton("Q");
 					btnQ.setBounds(270, 99, 45, 21);
@@ -360,7 +360,7 @@ public class VentanaAhorcado extends JFrame {
 					}
 				}
 
-				// Botón R:
+				// Botï¿½n R:
 				{
 					btnR = new JButton("R");
 					btnR.setBounds(20, 129, 45, 21);
@@ -371,7 +371,7 @@ public class VentanaAhorcado extends JFrame {
 					}
 				}
 
-				// Botón S:
+				// Botï¿½n S:
 				{
 					btnS = new JButton("S");
 					btnS.setBounds(70, 129, 45, 21);
@@ -382,7 +382,7 @@ public class VentanaAhorcado extends JFrame {
 					}
 				}
 
-				// Botón T:
+				// Botï¿½n T:
 				{
 					btnT = new JButton("T");
 					btnT.setBounds(120, 129, 45, 21);
@@ -393,7 +393,7 @@ public class VentanaAhorcado extends JFrame {
 					}
 				}
 
-				// Botón U:
+				// Botï¿½n U:
 				{
 					btnU = new JButton("U");
 					btnU.setBounds(170, 129, 45, 21);
@@ -404,7 +404,7 @@ public class VentanaAhorcado extends JFrame {
 					}
 				}
 
-				// Botón V:
+				// Botï¿½n V:
 				{
 					btnV = new JButton("V");
 					btnV.setBounds(220, 129, 45, 21);
@@ -415,10 +415,10 @@ public class VentanaAhorcado extends JFrame {
 					}
 				}
 
-				// Botón W:
+				// Botï¿½n W:
 				{
 					btnW = new JButton("W");
-					btnW.setBounds(270, 129, 46, 21);
+					btnW.setBounds(269, 129, 48, 21);
 					panelTeclado.add(btnW);
 					// Listeners:
 					{
@@ -426,7 +426,7 @@ public class VentanaAhorcado extends JFrame {
 					}
 				}
 
-				// Botón X:
+				// Botï¿½n X:
 				{
 					btnX = new JButton("X");
 					btnX.setBounds(20, 159, 45, 21);
@@ -437,7 +437,7 @@ public class VentanaAhorcado extends JFrame {
 					}
 				}
 
-				// Botón Y:
+				// Botï¿½n Y:
 				{
 					btnY = new JButton("Y");
 					btnY.setBounds(70, 159, 45, 21);
@@ -448,7 +448,7 @@ public class VentanaAhorcado extends JFrame {
 					}
 				}
 
-				// Botón Z:
+				// Botï¿½n Z:
 				{
 					btnZ = new JButton("Z");
 					btnZ.setBounds(120, 159, 45, 21);
@@ -477,7 +477,7 @@ public class VentanaAhorcado extends JFrame {
 			lblCajaAhorcado.setIcon(imagen0);
 			panelAhorcado.add(lblCajaAhorcado);
 
-			// Botón Salir del Juego:
+			// Botï¿½n Salir del Juego:
 			btnSalirJuego = new JButton("Salir");
 			btnSalirJuego.addMouseListener(new BtnSalirJuegoMouseListener());
 			btnSalirJuego.setBounds(143, 314, 82, 23);
@@ -487,28 +487,28 @@ public class VentanaAhorcado extends JFrame {
 		}
 	}
 
-	// MÉTODOS:
+	// Mï¿½TODOS:
 
 	// LISTENERS:
-		// Listener Botón de iniciar el juego:
+		// Listener Botï¿½n de iniciar el juego:
 		private class BtnIniciarJuegoMouseListener extends MouseAdapter {
 			@Override
 			public void mouseReleased(MouseEvent e) {
-				// LLamo a método IniciarJuego
+				// LLamo a mï¿½todo IniciarJuego
 				taCajaTexto.setText(iniciarJuego());
 			}
 		}
 		
-		// Listener Botón de reinicio:
+		// Listener Botï¿½n de reinicio:
 		private class BtnReiniciarMouseListener extends MouseAdapter {
 			@Override
 			public void mouseReleased(MouseEvent e) {
-				// Método que reinicia JTextArea
+				// Mï¿½todo que reinicia JTextArea
 				reiniciar();
 			}
 		}
 	
-		// Listener Botón de salir del juego:
+		// Listener Botï¿½n de salir del juego:
 		private class BtnSalirJuegoMouseListener extends MouseAdapter {
 			@Override
 			public void mouseReleased(MouseEvent e) {
@@ -516,7 +516,7 @@ public class VentanaAhorcado extends JFrame {
 			}
 		}
 
-		// Listener Botón letra A
+		// Listener Botï¿½n letra A
 		private class BtnAMouseListener extends MouseAdapter {
 			@Override
 			public void mouseReleased(MouseEvent e) {
@@ -530,7 +530,7 @@ public class VentanaAhorcado extends JFrame {
 			}
 		}
 	
-		// Listener Botón letra B
+		// Listener Botï¿½n letra B
 		private class BtnBMouseListener extends MouseAdapter {
 			@Override
 			public void mouseReleased(MouseEvent e) {
@@ -544,7 +544,7 @@ public class VentanaAhorcado extends JFrame {
 			}
 		}
 	
-		// Listener Botón letra C
+		// Listener Botï¿½n letra C
 		private class BtnCMouseListener extends MouseAdapter {
 			@Override
 			public void mouseReleased(MouseEvent e) {
@@ -558,7 +558,7 @@ public class VentanaAhorcado extends JFrame {
 			}
 		}
 	
-		// Listener Botón letra D
+		// Listener Botï¿½n letra D
 		private class BtnDMouseListener extends MouseAdapter {
 			@Override
 			public void mouseReleased(MouseEvent e) {
@@ -572,7 +572,7 @@ public class VentanaAhorcado extends JFrame {
 			}
 		}
 	
-		// Listener Botón letra E
+		// Listener Botï¿½n letra E
 		private class BtnEMouseListener extends MouseAdapter {
 			@Override
 			public void mouseReleased(MouseEvent e) {
@@ -586,7 +586,7 @@ public class VentanaAhorcado extends JFrame {
 			}
 		}
 	
-		// Listener Botón letra F
+		// Listener Botï¿½n letra F
 		private class BtnFMouseListener extends MouseAdapter {
 			@Override
 			public void mouseReleased(MouseEvent e) {
@@ -600,7 +600,7 @@ public class VentanaAhorcado extends JFrame {
 			}
 		}
 	
-		// Listener Botón letra G
+		// Listener Botï¿½n letra G
 		private class BtnGMouseListener extends MouseAdapter {
 			@Override
 			public void mouseReleased(MouseEvent e) {
@@ -614,7 +614,7 @@ public class VentanaAhorcado extends JFrame {
 			}
 		}
 	
-		// Listener Botón letra H
+		// Listener Botï¿½n letra H
 		private class BtnHMouseListener extends MouseAdapter {
 			@Override
 			public void mouseReleased(MouseEvent e) {
@@ -628,7 +628,7 @@ public class VentanaAhorcado extends JFrame {
 			}
 		}
 	
-		// Listener Botón letra I
+		// Listener Botï¿½n letra I
 		private class BtnIMouseListener extends MouseAdapter {
 			@Override
 			public void mouseReleased(MouseEvent e) {
@@ -642,7 +642,7 @@ public class VentanaAhorcado extends JFrame {
 			}
 		}
 	
-		// Listener Botón letra J
+		// Listener Botï¿½n letra J
 		private class BtnJMouseListener extends MouseAdapter {
 			@Override
 			public void mouseReleased(MouseEvent e) {
@@ -656,7 +656,7 @@ public class VentanaAhorcado extends JFrame {
 			}
 		}
 	
-		// Listener Botón letra K
+		// Listener Botï¿½n letra K
 		private class BtnKMouseListener extends MouseAdapter {
 			@Override
 			public void mouseReleased(MouseEvent e) {
@@ -670,7 +670,7 @@ public class VentanaAhorcado extends JFrame {
 			}
 		}
 	
-		// Listener Botón letra L
+		// Listener Botï¿½n letra L
 		private class BtnLMouseListener extends MouseAdapter {
 			@Override
 			public void mouseReleased(MouseEvent e) {
@@ -684,7 +684,7 @@ public class VentanaAhorcado extends JFrame {
 			}
 		}
 	
-		// Listener Botón letra M
+		// Listener Botï¿½n letra M
 		private class BtnMMouseListener extends MouseAdapter {
 			@Override
 			public void mouseReleased(MouseEvent e) {
@@ -698,7 +698,7 @@ public class VentanaAhorcado extends JFrame {
 			}
 		}
 	
-		// Listener Botón letra N
+		// Listener Botï¿½n letra N
 		private class BtnNMouseListener extends MouseAdapter {
 			@Override
 			public void mouseReleased(MouseEvent e) {
@@ -712,12 +712,12 @@ public class VentanaAhorcado extends JFrame {
 			}
 		}
 	
-		// Listener Botón letra Ñ
+		// Listener Botï¿½n letra ï¿½
 		private class BtnEnieMouseListener extends MouseAdapter {
 			@Override
 			public void mouseReleased(MouseEvent e) {
 				if(btnEnie.isEnabled() == true  && btnIniciarJuego.isEnabled() == false) {
-					letraSeleccionada = 'ñ';
+					letraSeleccionada = 'ï¿½';
 					btnEnie.setEnabled(false);
 					taCajaTexto.setText(c.getJuego(letraSeleccionada));
 					imagenes();
@@ -726,7 +726,7 @@ public class VentanaAhorcado extends JFrame {
 			}
 		}
 	
-		// Listener Botón letra O
+		// Listener Botï¿½n letra O
 		private class BtnOMouseListener extends MouseAdapter {
 			@Override
 			public void mouseReleased(MouseEvent e) {
@@ -740,7 +740,7 @@ public class VentanaAhorcado extends JFrame {
 			}
 		}
 	
-		// Listener Botón letra P
+		// Listener Botï¿½n letra P
 		private class BtnPMouseListener extends MouseAdapter {
 			@Override
 			public void mouseReleased(MouseEvent e) {
@@ -754,7 +754,7 @@ public class VentanaAhorcado extends JFrame {
 			}
 		}
 	
-		// Listener Botón letra Q
+		// Listener Botï¿½n letra Q
 		private class BtnQMouseListener extends MouseAdapter {
 			@Override
 			public void mouseReleased(MouseEvent e) {
@@ -768,7 +768,7 @@ public class VentanaAhorcado extends JFrame {
 			}
 		}
 	
-		// Listener Botón letra R
+		// Listener Botï¿½n letra R
 		private class BtnRMouseListener extends MouseAdapter {
 			@Override
 			public void mouseReleased(MouseEvent e) {
@@ -782,7 +782,7 @@ public class VentanaAhorcado extends JFrame {
 			}
 		}
 	
-		// Listener Botón letra S
+		// Listener Botï¿½n letra S
 		private class BtnSMouseListener extends MouseAdapter {
 			@Override
 			public void mouseReleased(MouseEvent e) {
@@ -796,7 +796,7 @@ public class VentanaAhorcado extends JFrame {
 			}
 		}
 	
-		// Listener Botón letra T
+		// Listener Botï¿½n letra T
 		private class BtnTMouseListener extends MouseAdapter {
 			@Override
 			public void mouseReleased(MouseEvent e) {
@@ -810,7 +810,7 @@ public class VentanaAhorcado extends JFrame {
 			}
 		}
 	
-		// Listener Botón letra U
+		// Listener Botï¿½n letra U
 		private class BtnUMouseListener extends MouseAdapter {
 			@Override
 			public void mouseReleased(MouseEvent e) {
@@ -824,7 +824,7 @@ public class VentanaAhorcado extends JFrame {
 			}
 		}
 	
-		// Listener Botón letra V
+		// Listener Botï¿½n letra V
 		private class BtnVMouseListener extends MouseAdapter {
 			@Override
 			public void mouseReleased(MouseEvent e) {
@@ -838,7 +838,7 @@ public class VentanaAhorcado extends JFrame {
 			}
 		}
 	
-		// Listener Botón letra W
+		// Listener Botï¿½n letra W
 		private class BtnWMouseListener extends MouseAdapter {
 			@Override
 			public void mouseReleased(MouseEvent e) {
@@ -852,7 +852,7 @@ public class VentanaAhorcado extends JFrame {
 			}
 		}
 	
-		// Listener Botón letra X
+		// Listener Botï¿½n letra X
 		private class BtnXMouseListener extends MouseAdapter {
 			@Override
 			public void mouseReleased(MouseEvent e) {
@@ -866,7 +866,7 @@ public class VentanaAhorcado extends JFrame {
 			}
 		}
 	
-		// Listener Botón letra Y
+		// Listener Botï¿½n letra Y
 		private class BtnYMouseListener extends MouseAdapter {
 			@Override
 			public void mouseReleased(MouseEvent e) {
@@ -880,7 +880,7 @@ public class VentanaAhorcado extends JFrame {
 			}
 		}
 	
-		// Listener Botón letra Z
+		// Listener Botï¿½n letra Z
 		private class BtnZMouseListener extends MouseAdapter {
 			@Override
 			public void mouseReleased(MouseEvent e) {
@@ -898,7 +898,7 @@ public class VentanaAhorcado extends JFrame {
 		
 	// EVENTOS:
 	public String iniciarJuego() {
-		// Una vez iniciado el juego deshabilitamos botón de Iniciar Juego:
+		// Una vez iniciado el juego deshabilitamos botï¿½n de Iniciar Juego:
 		btnIniciarJuego.setEnabled(false);
 		
 		// Devolvemos la palabra a adivinar encriptada:
@@ -914,13 +914,13 @@ public class VentanaAhorcado extends JFrame {
 		   component.setEnabled(true); 
 		}
 		
-		// Reiniciamos Jlabel de imágenes a estado inicial:
+		// Reiniciamos Jlabel de imï¿½genes a estado inicial:
 		lblCajaAhorcado.setIcon(imagen0);
 				
-		// Volvemos a habilitar botón de Iniciar Juego:
+		// Volvemos a habilitar botï¿½n de Iniciar Juego:
 		btnIniciarJuego.setEnabled(true);
 		
-		// Generamos nueva palabra aleatoria y su encriptación para próximo juego:
+		// Generamos nueva palabra aleatoria y su encriptaciï¿½n para prï¿½ximo juego:
 		String palabra = c.getGeneraPalabraAleatoria();
 		c.getGeneraEncriptacion(palabra).toString();
 		
@@ -929,7 +929,7 @@ public class VentanaAhorcado extends JFrame {
 	}
 	
 	public void imagenes() {
-		// Método que muestra en JLabel la imagen del ahorcado según vidas restantes:
+		// Mï¿½todo que muestra en JLabel la imagen del ahorcado segï¿½n vidas restantes:
 		switch(c.getVidas()) {
 			case 6:
 				lblCajaAhorcado.setIcon(imagen0);
